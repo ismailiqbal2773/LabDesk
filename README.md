@@ -6,6 +6,8 @@ LabDesk helps a school IT technician keep an equipment register, log faults and 
 
 ![LabDesk fault desk with fictional validation data](docs/desktop-preview.jpg)
 
+[Watch/download the 30-second app demo](docs/labdesk-demo.mp4) · [Video contact sheet](docs/video-contact-sheet.jpg) · [Editable HyperFrames source](docs/video-source/)
+
 ## Start
 
 Requires **Python 3.10+** and a modern browser. Download **Code → Download ZIP**, extract the ZIP, and open a terminal in the extracted folder containing `labdesk.py`.
