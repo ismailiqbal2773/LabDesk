@@ -4,6 +4,8 @@
 
 LabDesk helps a school IT technician keep an equipment register, log faults and retain troubleshooting history. Runs on your computer with Python and SQLite. No account, API key, subscription or third-party Python package required.
 
+![LabDesk fault desk with fictional validation data](docs/desktop-preview.jpg)
+
 ## Start
 
 Requires **Python 3.10+** and a modern browser. Download **Code → Download ZIP**, extract the ZIP, and open a terminal in the extracted folder containing `labdesk.py`.
