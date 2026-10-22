@@ -19,6 +19,8 @@ Environment: Windows, Python 3.12, Node.js JavaScript syntax check, Codex in-app
 
 `node --check web/app.js`: passed.
 
+Clean-download check: created a ZIP from the committed files, extracted into a fresh folder with no database or dependencies, ran all 13 tests again successfully, and started the extracted app from a different working directory. Verified empty initial records, HTML response and creation of its default database beside the extracted source. Runtime databases/backups were absent from the ZIP.
+
 The first sandboxed attempt could not access the system temp directory / localhost sockets. Re-ran with normal local access; all tests passed. These were environment restrictions, not skipped tests.
 
 ## Browser checks performed
