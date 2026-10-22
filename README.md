@@ -71,6 +71,8 @@ python -m unittest discover -s tests -v
 
 Tests use temporary databases and cover persistence, history/status changes, stale updates, duplicate IDs, invalid dates/input, atomic CSV imports, exact backup restore, corrupt backup rollback, Unicode, CSV formula handling, HTTP save/export and request-origin protection. See [validation notes](docs/VALIDATION.md) for the verified environment and browser checks. Tests reduce risk; they are not a guarantee that every OS/browser combination is issue-free.
 
+Release verification: **13 local tests passed**, including a clean extracted ZIP. GitHub Actions is currently blocked before execution by the owner's account billing lock; remote matrix results are unavailable.
+
 ## Project files
 
 | Path | Purpose |

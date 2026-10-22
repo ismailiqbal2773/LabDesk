@@ -36,7 +36,9 @@ The first sandboxed attempt could not access the system temp directory / localho
 - Browser console error snapshot was empty after recovery.
 - Desktop layout inspected visually at the browser's actual 1280px viewport.
 
-The browser's viewport override did not change its actual 1280px width, so **phone-width rendering is not independently verified**. Responsive CSS is included. Print dialog/PDF output and other operating systems are not independently verified in this local run. The repository includes a Windows/Linux and Python 3.10/3.12/3.13 CI matrix; its results must be checked separately rather than assumed.
+The browser's viewport override did not change its actual 1280px width, so **phone-width rendering is not independently verified**. Responsive CSS is included. Print dialog/PDF output and other operating systems are not independently verified in this local run.
+
+The Windows/Linux and Python 3.10/3.12/3.13 CI matrix was submitted, but GitHub did not start its jobs: the authenticated check annotations say the owner's account is locked due to a billing issue. This is a runner/account blocker, not a failed test assertion. Local and clean-ZIP tests passed; the remote matrix is **not verified**. [Affected run](https://github.com/ismailiqbal2773/LabDesk/actions/runs/39719362747). No billing settings or purchases were changed.
 
 ## Release policy
 
